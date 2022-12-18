@@ -1,0 +1,42 @@
+Comentário em HTML: <!-- -->
+
+&reg; marca registrada
+&cop; copyright
+
+emojis:
+&#x *codigo emoji* ;
+
+Sites para imagens grátis: unsplash, pexels, iconarchive, favicon.cc, favicon.io
+
+Hierarquia: 
+H1 - Titulo principal
+H2 - Subtitulo
+H3...
+
+<b>: negrito (não semântica, não recomendado)
+<strong>: destaque (semântica)
+
+<i>: itálico (não semântica, não recomendado)
+<em>: ênfase (semântica)
+
+<u>: sublinhado sem semântica
+<ins>: sublinhado (semântica)
+
+sobrescrito: <sup> potência matemática
+subscrito: <sub> fórmula química (água)
+
+<code>: para tornar um texto monoespaçado (código fonte)
+<pre>: respeita a identação dentro do arquivo HTML.
+
+<q>: usado para citação
+<blockquote>: citação longa
+<blockquote cite=""> não possui diferença visual, mas o backend referenciará seu conteúdo.
+
+<abbr title="">: exibe informação ao sobrepor o mouse.
+<bdo>: texto invertido, da esquerda para direita ou vice-versa.
+
+<ol>: ordered list - ordenar listas (type="x" - 1, A, a, I, i)
+<ul>: unondered list - lista desordenada (type"x" - disc, circle, square)
+
+<dl>: semelhante a um dicionário.
+<dt>: itens do dicionário.
