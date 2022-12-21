@@ -30,12 +30,24 @@
         <!-- <img src="../images/imagemG.png" type="image/png">                                       --> <!-- Imagem original -->
     </picture>
 
-    <h2>Música dos podres</h2>
+    <h2>Vídeo dos podres</h2>
+    <video preload="none" width="720" poster="../images/drift_poster.jpg" controls>
+        <source src="../media/cars_drifting.mp4"  type="video/mp4">
+        <source src="../media/cars_drifting.m4v"  type="video/mp4">
+        <source src="../media/cars_drifting.webm" type="video/ogg">
+        <p class="error">Error - seu navegador não foi capaz de reproduzir mídia que deveria estar aqui.</p>
+    </video>
 
-    <audio>
-        <source src="../media/ONIMXRU-SHADOW-SlowedReverb.mp3" type="audio/mpeg">
+    <h2>Música dos podres</h2>
+    <audio preload="metadata" title="Músicas dos Podres" controls>
+        <source src="../media/ONIMXRU-SHADOW-SlowedReverb.mp3" type="audio/mpeg" title="ONIMXRU - SHADOW (Slowed + Reverb)">
+        <source src="../media/ONIMXRU-SHADOW-SlowedReverb.ogg" type="audio/ogg"  title="ONIMXRU - SHADOW (Slowed + Reverb)">
+        <p class="error">Error - seu navegador não foi capaz de reproduzir mídia que deveria estar aqui.</p>
     </audio>
-    
+
+    <h2>Vídeo do YouTube</h2>
+    <iframe width="1080" height="608" src="https://www.youtube-nocookie.com/embed/J4t4pMZBXZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
     <ol> <!-- Orgenized List -->
         <!-- Aqui eu pretendo utilizar JS para expandir informações sobre cada membro -->
         

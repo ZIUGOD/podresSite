@@ -43,3 +43,8 @@ h6 {
 .downloadPDF, .downloadZIP {
     font-size: 0.8em;
 }
+
+video {
+    border-radius: 12px;
+}
+
