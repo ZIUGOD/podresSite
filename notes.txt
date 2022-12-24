@@ -40,3 +40,6 @@ subscrito: <sub> fórmula química (água)
 
 <dl>: semelhante a um dicionário.
 <dt>: itens do dicionário.
+
+vimeo != YouTube
+
