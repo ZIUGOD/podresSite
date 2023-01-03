@@ -6,72 +6,15 @@ body {
     background-color: rgb(15, 15, 15);
 
     font-family: 'Work Sans', sans-serif;
+    color: gold;
     text-align: center;
     
     margin: 5% 10%;
 }
 
-h1 {
-    font-size: 4em;
-    text-shadow: 0px 0px 50px white;
-
-    color: gold;
-    padding: 10px;
-    border-style: hidden;
-}
-
-h2 {
-    font-size: 2em;
-    text-shadow: 0px 0px 50px white;
-
-    color: gold;
-}
-
-.ranking {
-    padding: 0%;
-    font-size: 1.25em;
-
-    color: gold;
-    text-align: center;
-    align-content: center;
-}
-
-.driftContent {
-    border-radius: 10%;
-}
-
-.exPodres {
-    font-size: 1em;
-    color: gold;
-}
-
-a {
-    color: gold;
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-    font-size: 1em;
-    color: white;
-}
-
-h6 {
-    color: gold;
-}
-
-.downloadPDF, .downloadZIP {
-    font-size: 0.75em;
-}
-
-.instagram, .github {
-    
-}
-
-img {
-    border-radius: 4px;
-}
-
-video {
+.logoGang {
+    display: inline;
     border-radius: 12px;
+    border: 1px white solid;
+    padding: 0px;
 }
