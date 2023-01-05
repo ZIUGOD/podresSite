@@ -16,7 +16,7 @@ body {
     padding: 0% 10% 5% 10%;
 }
 
-header {
+.cabecalho {
     padding: 24px 32px 12px 32px;
     display: flex;
     flex-direction: row;
@@ -39,16 +39,36 @@ nav {
 }
 
 .conteudo {
-    border-top: 0.1px groove white;
+    border-top: 1px solid black;
+    padding-top: 5%;
     margin-bottom: 64px;
 }
 
 .conteudo-principal {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+
     justify-content: space-around;
     gap: 32px;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-weight: 300;
+}
+
+.conteudo-principal-titulo {
+    font-size: 2rem;
+}
+
+.conteudo-principal-subtitulo {
+    font-size: 1rem;
+    margin: 10% 0%;
+
+    color: black;
 }
 
 h1 {
@@ -73,6 +93,8 @@ h1 {
 
 .driftPhoto {
     display: flex;
+    border-radius: 12px;
+    border: 2px solid white;
     flex-direction: column;
 }
 
@@ -90,4 +112,21 @@ h1 {
 
 h3 {
     margin: 0% 2% 2% 2%;
+}
+
+.ranking {
+    list-style-type: decimal;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+}
+
+
+footer {
+    border-top: 1px solid black;
+}
+
+.assinatura {
+    max-height: 240px;
+    margin-top: 10%;
 }
